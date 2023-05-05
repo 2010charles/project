@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexbox design desktop desig</title>
+    <style>
+        .header{
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+            margin: 0 20px;
+        }
+        a{
+            color: black;
+            margin: 0 30px;
+            text-decoration: none;
+        }
+        .main{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: row;
+        }
+        .top-left{
+            justify-content: left;
+        }
+        .top-right{
+            margin: 80px 100px;
+        }
+        button{
+            padding: 15px 20px;
+            color: white;
+            background-color: black;
+            border-radius: 10px;
+        }
+        .end-image{
+            margin-left: 100px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="logo"><img src="/images/logo.svg" alt="image logo" height="50px 25px"></div>
+            <div class="list1">
+                <a href="features">features</a>
+                <a href="Company">Company</a>
+                <a href="Career">Career</a>
+                <a href="About">About</a>
+            </div>
+            <div class="list2">
+                <a href="login">Login</a>
+                <a href="Register">Register</a>
+            </div>
+        </div>
+        <div class="main">
+            <div class="top-left">
+                <h1>Make <br> remote work</h1>
+                <p>get your team in syn,no matter your location.<br>Streamline processes,create team rituals,and<br>watch a productivity soar</p>
+                <button>Learn more</button>
+            </div>
+            <div class="top-right"><img src="images/image-hero-mobile.png" alt="main image of the page" height="400px" width="350"></div>
+        </div>
+        <div class="end-image">
+            <img src="/images/client-databiz.svg" alt="marker" height="40px" width="35px">
+            <img src="/images/client-audiophile.svg" alt="client"  height="40px" width="35px">
+            <img src="/images/client-meet.svg" alt="marker"height="40px" width="35px">
+            <img src="images/client-maker.svg" alt="marker" height="40px" width="35px">
+        </div>
+    </div>
+</body>
+</html>
